@@ -96,4 +96,6 @@ if (file.exists("summarized_data.tbl.txt")){file.remove("summarized_data.tbl.txt
 write.table(summarized_data, file="summarized_data.tbl.txt", row.name=FALSE)
 
 #cleanup
-rm(labeled_data,summarized_data)
+rm(labeled_data)
+#return data
+summarized_data
