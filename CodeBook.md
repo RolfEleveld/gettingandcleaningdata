@@ -44,9 +44,9 @@ mean_and_std_data # is the subset from data selecting only the colomns mentioned
 only mean_and_std_data will be kept all other variables are cleared.
 
 ##3. Proper labeled activities
-Have sensible values in teh activities column
+Have sensible values in the activities column
 ```{r}
-activitylbl           # will contain the mapping data for teh activity labels as defined in the data set
+activitylbl           # will contain the mapping data for the activity labels as defined in the data set
 activity_labeled_data # will contain the updated data from mean_and_std_data with the proper values for activity
 ```
 
